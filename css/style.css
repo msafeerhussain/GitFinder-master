@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: #005e94;
+}
+
+h1, p, a {
+  color: #fff;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #202020;
+}
+
+.breadcrumb {
+  background-color: #007ec7;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #202020;
+}
+
+#ico {
+  padding: 0 30px 0 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#search {
+  padding: 3px;
+}
+
+b {
+  color: rgb(255, 217, 67);
+}
+
+.btn-secondary {
+  color: #000;
+  background-color: rgb(255, 217, 67);
+}
+
+.profile {
+  color: rgb(255, 217, 67);
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    margin-bottom: 0.5em;
+  }
+  .breadcrumb {
+    padding: 1.5rem 0.3rem;
+  }
+  #ico {
+    padding: 0 25px 0 0;
+  }
+}
